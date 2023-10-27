@@ -30,19 +30,19 @@ bool CircleIntersection::HasIntersection() const {
 }
 
 double CircleIntersection::GetX1() const {
-    return x3_;
-}
-
-double CircleIntersection::GetY1() const {
     return y3_;
 }
 
+double CircleIntersection::GetY1() const {
+    return x3_;
+}
+
 double CircleIntersection::GetX2() const {
-    return x4_;
+    return y4_;
 }
 
 double CircleIntersection::GetY2() const {
-    return y4_;
+    return x4_;
 }
 
 double CircleIntersection::DistanceBetweenCenters() const {
