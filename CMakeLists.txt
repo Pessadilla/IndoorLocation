@@ -18,6 +18,8 @@ qt_add_qml_module(appIndoorLocation
     QML_FILES Main.qml
     SOURCES Functions/circleintersection.h Functions/circleintersection.cpp
     SOURCES Functions/trianglecenter.h Functions/trianglecenter.cpp
+    SOURCES Functions/coordinateselector.h Functions/coordinateselector.cpp
+    SOURCES Functions/pointcomparer.h Functions/pointcomparer.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
